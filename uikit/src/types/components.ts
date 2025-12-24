@@ -1,6 +1,6 @@
 // Component Types for UI Kit
 
-// Button - 12 yaratıcı varyant
+// Button - 17 yaratıcı varyant
 export type ButtonVariant =
     | 'solid'      // Dolgulu
     | 'outline'    // Kenarlıklı
@@ -11,9 +11,14 @@ export type ButtonVariant =
     | 'glow'       // Parıldayan efekt
     | 'glass'      // Cam efekti
     | 'neu'        // Neumorphism
+    | 'primary'    // Ana aksiyon
+    | 'secondary'  // İkincil aksiyon
     | 'danger'     // Tehlike
     | 'success'    // Başarı
+    | 'warning'    // Uyarı
+    | 'info'       // Bilgi
     | 'icon'       // Sadece ikon
+    | '3d'         // 3D derinlik efekti
 
 export type ButtonSize = 'xs' | 'sm' | 'md' | 'lg' | 'xl'
 

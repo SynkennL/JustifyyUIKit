@@ -102,3 +102,27 @@
 .animate-pulse-glow {
   animation: pulse-glow 2s ease-in-out infinite;
 }
+
+/* 3D Button */
+.btn-3d {
+  background: linear-gradient(180deg, #6366f1 0%, #4f46e5 100%);
+  box-shadow:
+    0 6px 0 #3730a3,
+    0 8px 10px rgba(79, 70, 229, 0.3);
+  transform: translateY(0);
+  transition: all 0.15s ease;
+}
+
+.btn-3d:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 0 #3730a3,
+    0 12px 16px rgba(79, 70, 229, 0.4);
+}
+
+.btn-3d:active {
+  transform: translateY(4px);
+  box-shadow:
+    0 2px 0 #3730a3,
+    0 4px 8px rgba(79, 70, 229, 0.2);
+}
