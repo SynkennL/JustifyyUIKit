@@ -8,12 +8,12 @@ import { JProgress } from '@/components'
       <h2 class="text-xl font-semibold text-slate-900">Progress</h2>
       <span class="text-xs text-slate-400">4 varyant</span>
     </div>
-    
+
     <div class="p-6 bg-slate-50 rounded-xl space-y-4">
-      <JProgress :value="25" variant="default" :show-label="true">Yükleniyor</JProgress>
-      <JProgress :value="50" variant="success" size="md" />
-      <JProgress :value="75" variant="warning" size="lg" />
-      <JProgress :value="90" variant="error" size="sm" />
+      <JProgress :value="25" variant="default" />
+      <JProgress :value="50" variant="success" />
+      <JProgress :value="75" variant="warning" />
+      <JProgress :value="90" variant="error" />
     </div>
   </section>
 </template>

@@ -14,7 +14,3 @@ export type ProgressVariant = 'default' | 'success' | 'warning' | 'error'
 
 // Card
 export type CardVariant = 'default' | 'bordered' | 'elevated' | 'glass'
-
-export interface BaseComponentProps {
-    disabled?: boolean
-}

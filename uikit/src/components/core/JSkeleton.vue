@@ -1,27 +1,9 @@
 <script setup lang="ts">
-interface Props {
-  variant?: 'text' | 'circular' | 'rectangular'
-  width?: string
-  height?: string
-}
-
-withDefaults(defineProps<Props>(), {
-  variant: 'text',
-  width: '100%',
-  height: '1rem'
-})
+// No props needed - developer controls everything via class
 </script>
 
 <template>
-  <div 
-    :class="[
-      'animate-pulse bg-slate-200',
-      variant === 'circular' ? 'rounded-full' : 'rounded',
-      variant === 'text' ? 'h-4' : ''
-    ]"
-    :style="{ 
-      width: variant === 'circular' ? height : width, 
-      height: height 
-    }"
-  />
+  <div class="animate-pulse bg-slate-200 rounded">
+    <slot />
+  </div>
 </template>
