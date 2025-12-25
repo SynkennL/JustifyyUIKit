@@ -6,7 +6,7 @@ import { JButton } from '@/components'
   <section id="buttons" class="space-y-8 scroll-mt-20">
     <div class="flex items-center gap-3">
       <h2 class="text-xl font-semibold text-slate-900">Buttons</h2>
-      <span class="text-xs text-slate-400">Esnek Buton Komponenti</span>
+      <span class="text-xs text-slate-400">Buton Komponenti</span>
     </div>
 
     <!-- Varyantlar -->
