@@ -9,6 +9,7 @@ export { default as JProgress } from './core/JProgress.vue'
 export { default as JSkeleton } from './core/JSkeleton.vue'
 export { default as JDivider } from './core/JDivider.vue'
 export { default as JTooltip } from './core/JTooltip.vue'
+export { default as JIcon } from './core/JIcon.vue'
 
 // UI Components (Layout Bileşenleri)
 export { default as JNavbar } from './ui/JNavbar.vue'

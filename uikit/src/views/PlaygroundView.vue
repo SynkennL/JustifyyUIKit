@@ -7,11 +7,12 @@ import ExtrasShowcase from './components/ExtrasShowcase.vue'
 import ProgressShowcase from './components/ProgressShowcase.vue'
 import MiscShowcase from './components/MiscShowcase.vue'
 import LayoutShowcase from './components/LayoutShowcase.vue'
+import IconShowcase from './components/IconShowcase.vue'
 </script>
 
 <template>
   <div class="max-w-4xl mx-auto space-y-16">
-    
+
     <!-- Hero -->
     <section class="text-center py-8">
       <h1 class="text-3xl font-bold text-slate-900 mb-2">Justify UI</h1>
@@ -23,24 +24,27 @@ import LayoutShowcase from './components/LayoutShowcase.vue'
 
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <ButtonShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <InputShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <CardShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <ExtrasShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <ProgressShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <MiscShowcase />
-    
+
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <LayoutShowcase />
+
+    <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
+    <IconShowcase />
 
   </div>
 </template>
