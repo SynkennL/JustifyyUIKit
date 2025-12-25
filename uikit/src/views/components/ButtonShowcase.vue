@@ -6,7 +6,7 @@ import { JButton } from '@/components'
   <section id="buttons" class="space-y-8 scroll-mt-20">
     <div class="flex items-center gap-3">
       <h2 class="text-xl font-semibold text-slate-900">Buttons</h2>
-      <span class="text-xs text-slate-400">5 variant • 5 boyut</span>
+      <span class="text-xs text-slate-400">Button Variantları</span>
     </div>
 
     <!-- Varyantlar -->
@@ -38,7 +38,6 @@ import { JButton } from '@/components'
       <p class="text-xs font-medium text-slate-500 uppercase tracking-wider">Özellikler</p>
       <div class="flex flex-wrap items-center gap-3">
         <JButton rounded>Rounded</JButton>
-        <JButton loading>Loading</JButton>
         <JButton disabled>Disabled</JButton>
       </div>
     </div>
@@ -49,9 +48,9 @@ import { JButton } from '@/components'
       <div class="flex flex-wrap gap-3">
         <JButton size="lg" rounded>Large Rounded</JButton>
         <JButton variant="outline" size="sm">Outline Small</JButton>
-        <JButton variant="soft" size="lg">Soft Large</JButton>
-        <JButton variant="ghost">Ghost</JButton>
-        <JButton loading>Yükleniyor...</JButton>
+        <JButton variant="soft" size="xl">Soft XL</JButton>
+        <JButton variant="ghost" size="xs">Ghost XS</JButton>
+        <JButton variant="outline" rounded>Outline Rounded</JButton>
       </div>
     </div>
   </section>
