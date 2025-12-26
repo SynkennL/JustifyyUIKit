@@ -14,3 +14,6 @@ export type ProgressVariant = 'default' | 'success' | 'warning' | 'error'
 
 // Card
 export type CardVariant = 'default' | 'bordered' | 'elevated' | 'glass'
+
+// Layout Types (SubNavbar & SubFooter)
+export * from './layout'

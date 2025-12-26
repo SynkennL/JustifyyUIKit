@@ -7,6 +7,7 @@ import ExtrasShowcase from './components/ExtrasShowcase.vue'
 import ProgressShowcase from './components/ProgressShowcase.vue'
 import MiscShowcase from './components/MiscShowcase.vue'
 import LayoutShowcase from './components/LayoutShowcase.vue'
+import SubLayoutShowcase from './components/SubLayoutShowcase.vue'
 import IconShowcase from './components/IconShowcase.vue'
 </script>
 
@@ -42,6 +43,9 @@ import IconShowcase from './components/IconShowcase.vue'
 
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <LayoutShowcase />
+
+    <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
+    <SubLayoutShowcase />
 
     <div class="h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent" />
     <IconShowcase />
